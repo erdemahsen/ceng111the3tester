@@ -4,12 +4,12 @@
 1- Download CENG111-THE3 Tester  
 2- Put your the3.py file in to "CENG111-THE3 Tester" folder.  
 3- Run tester.py  
-4- Check failedcases.txt  (if you did not get %100)  
+4- Check failedcases.txt 
 5- Check optional to test your code with more cases.
 #
 Optional- If you want to try your tester with other cases choose a folder "CasesN(memberK-testnumberL)". Copy everything inside of that "CasesN(memberK-testnumberL)" to CENG111-THE3 Tester. By doing that you can try your code with bigger trees(partlists) which is something I strongly recommend.
 #
-Note- Default answer.txt, partlist.txt stocklists.txt are set to "Cases1(member10-testnumber10000)"
+Note- Default answer.txt, partlist.txt stocklists.txt are set to "Cases1(member50-testnumber842)"
 
 # Attention:
 
@@ -28,6 +28,11 @@ You can use files in "Generator" folder to generate your own "answer.txt","partl
 5-You can inspect and change most of the variables (some of them have explanations) .   
 6-Now run "testerlul.py". This will generate your own "answer.txt","partlist.txt","stocklists.txt".    
 7-You can share these files with someone and tell them to run their the3.py  
+
+# This might be the problem !
+
+1-Since there are 5 different answers.txt, partlists.txt, stocklists.txt this may cause tester to call wrong answer.txt etc. To avoid this you can try changing the names of the text files that you are not using to sth else.
+2-If you want to try a test case make sure you copied everything in that folder (like CasesX(Ymember-Ztest)) and pasted these txt files to the3ceng111tester folder.
 
 #Ömer Erdem Ahsen
 
