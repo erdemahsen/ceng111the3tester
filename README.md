@@ -4,8 +4,9 @@
 1- Download CENG111-THE3 Tester  
 2- Put your the3.py file in to "CENG111-THE3 Tester" folder.  
 3- Run tester.py  
-4- Check failedcases.txt   
-5- Check optional to test your code with more cases.
+4- If you are testing Case4, it takes time so do not panic :).
+5- Check failedcases.txt   
+6- Check optional to test your code with more cases. (If you do not touch to anything you will only use Cases1)
 #
 Optional- If you want to try your tester with other cases choose a folder "CasesN(memberK-testnumberL)". Copy everything inside of that "CasesN(memberK-testnumberL)" to CENG111-THE3 Tester. By doing that you can try your code with bigger trees(partlists) which is something I strongly recommend.
 #
