@@ -36,6 +36,7 @@ You can use files in "Generator" folder to generate your own "answer.txt","partl
 1-Since there are 5 different answers.txt, partlists.txt, stocklists.txt this may cause tester to call wrong answer.txt etc. To avoid this you can try changing the names of the text files that you are not using to sth else.  
 2-If you want to try a test case make sure you copied everything in that folder (like CasesX(Ymember-Ztest)) and pasted these txt files to the3ceng111tester folder.  
 3-SinglePart1 and SinglePart2 contains partlists like "[['ntuevt', 115.7]]". These two test cases may cause some problems.
+4-You can try changing line 57 "if oran>1.0001 or oran<0.9999:" to sth like "if oran>1.1 or oran<0.9:".
 
 #Ömer Erdem Ahsen
 
