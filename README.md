@@ -4,7 +4,7 @@
 1- Download CENG111-THE3 Tester  
 2- Put your the3.py file in to "CENG111-THE3 Tester" folder.  
 3- Run tester.py  
-4- If you are testing Case4, it takes time so do not panic :).
+4- If you are testing Case4, it takes time so do not panic :).  
 5- Check failedcases.txt   
 6- Check optional to test your code with more cases. (If you do not touch to anything you will only use Cases1)
 #
@@ -33,7 +33,7 @@ You can use files in "Generator" folder to generate your own "answer.txt","partl
 # This might be the problem !
 
 1-Since there are 5 different answers.txt, partlists.txt, stocklists.txt this may cause tester to call wrong answer.txt etc. To avoid this you can try changing the names of the text files that you are not using to sth else.  
-2-If you want to try a test case make sure you copied everything in that folder (like CasesX(Ymember-Ztest)) and pasted these txt files to the3ceng111tester folder.
+2-If you want to try a test case make sure you copied everything in that folder (like CasesX(Ymember-Ztest)) and pasted these txt files to the3ceng111tester folder.  
 3-SinglePart1 and SinglePart2 contains partlists like "[['ntuevt', 115.7]]". These two test cases may cause some problems.
 
 #Ömer Erdem Ahsen
