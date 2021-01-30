@@ -49,7 +49,12 @@ while ind<len(plist):
     for i in range(1,3):
         temp[i]=set(temp[i])
         yourans[i]=set(yourans[i])
-    if yourans!=temp:
+    if yourans[1:]!=temp[1:]:
+        error=1
+    sayi1=yourans[0]
+    sayi2=temp[0]
+    oran=sayi1/sayi2
+    if oran>1.0001 or oran<0.9999:
         error=1
     if error==1:
         print("Test Case",ind+1,": False")
