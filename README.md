@@ -28,15 +28,15 @@ You can use files in "Generator" folder to generate your own "answers.txt","part
 3-In "generator.py" "N" is the most important variable. This decides how long will the part list be.   
 4-In "testerlul.py" "K" is the most important variable. This decides how many trees(partlists) will be generated.  
 5-You can inspect and change most of the variables (some of them have explanations) .   
-6-Now run "testerlul.py". This will generate your own "answers.txt","partlists.txt","stocklists.txt".
-Sidenote: there should be 3 empty txt files created by you before running testerlul.py (answers.txt partlists.txt stocklists.txt).
+6-Now run "testerlul.py". This will generate your own "answers.txt","partlists.txt","stocklists.txt".  
+Sidenote: there should be 3 empty txt files created by you before running testerlul.py (answers.txt partlists.txt stocklists.txt).  
 7-You can share these files with someone and tell them to run their tester.py  
 
 # This might be the problem !
 
 1-Since there are 5 different answers.txt, partlists.txt, stocklists.txt this may cause tester to call wrong answer.txt etc. To avoid this you can try changing the names of the text files that you are not using to sth else.  
 2-If you want to try a test case make sure you copied everything in that folder (like CasesX(Ymember-Ztest)) and pasted these txt files to the3ceng111tester folder.  
-3-SinglePart1 and SinglePart2 contains partlists like "[['ntuevt', 115.7]]". These two test cases may cause some problems.
+3-SinglePart1 and SinglePart2 contains partlists like "[['ntuevt', 115.7]]". These two test cases may cause some problems.  
 4-You can try changing line 57 "if oran>1.0001 or oran<0.9999:" to sth like "if oran>1.1 or oran<0.9:".
 
 #Ömer Erdem Ahsen
